@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Portfolio</title>
+<script crossorigin="anonymous" src="https://kit.fontawesome.com/83ce78bbab.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400&amp;family=Crimson+Text:ital@1&amp;family=EB+Garamond:wght@500&amp;family=Metal+Mania&amp;family=Shalimar&amp;family=Source+Serif+Pro:ital,wght@0,300;0,400;0,700;1,300&amp;display=swap" rel="stylesheet"/>
+<link href="style.css" rel="stylesheet"/>
+
+</head>
+    
+<body>
+<header>
+<a class="navicon" href="javascript:void(0);" onclick="myFunction()">
+<i class="fa fa-bars"></i></a>
+<div class="navi" id="topnavi">
+<a href="#home" onclick="myFunction()"><i class="fa-solid fa-house-user"></i>Home</a>
+<a href="#skill" onclick="myFunction()"><i class="fa-solid fa-trophy"></i>Skills</a>
+<a href="#education" onclick="myFunction()"><i class="fa-solid fa-user-graduate"></i>Education</a>
+<a href="#contact" onclick="myFunction()"><i class="fa-solid fa-address-book"></i>Contact</a>
+</div>
+</header>
+<section class="first" id="home">
+<div class="profileimg">
+  <img alt="" src="assets/profile.jpeg"/>
+</div>
+<div class="profile">
+<h1>Hey! Hii... I'm Vadthya Shirisha</h1>
+<p class="designation">Web Designer & Programmer</p>
+<p>I am pursuing a Bachelor of Technology in Computer Science (Data Science) Stream at AVN Institue of Engineering and Technology</p>
+<p>
+ I am a self-motivated, goal-oriented person with practical knowledge in the domains of Machine Learning and the basics of Web Development. Ebullient to learn new technologies to work in a dynamic organization that will contribute to my professional and personal growth. I am  passionate and very much interested in developing various software applications. I am an innovative person who solves problems from a different thinking perspective. My interest in technologies is very keen
+            </p>
+</div>
+</section>
+<section class="second" id="skill">
+<h1>My Skills</h1>
+<div class="skill">
+<div>
+<p>Web Development</p>
+<progress max="40" value="32"></progress>
+</div>
+<div>
+<p>Python</p>
+<progress max="40" value="36"> </progress>
+</div>
+<div>
+<p>Java Programming</p>
+<progress max="40" value="30"></progress>
+</div>
+</section>
+<section class="education" id="education">
+<h1>Education</h1>
+<div class="edu">
+<div class="colleges">
+<div>
+<h2><i class="fa-solid fa-building-columns"></i>AVN Institue of Engineering and Technology</h2>
+<p>Bachelor of Technology Computer science(Data Science).</p>
+<p>CGPA:7.0(TILL DATE)</p>
+</div>
+<div>
+<h2><i class="fa-solid fa-building-columns"></i>Pallavi Engineering COLLEGE</h2>
+<p>Diploma(State)</p>
+<p>CGPA:7.2</p>
+</div>
+<div>
+<h2><i class="fa-solid fa-building-columns"></i>TSWRIES</h2>
+<p>10TH(ssc)</p>
+<p>CGPA:78%</p>
+</div>
+</div>
+<div>
+<img alt="" src="assets/edu1.png"/>
+</div>
+</div>
+</section>
+
+<footer id="contact">
+<h3>Contact Me</h3>
+<div class="foot-nav">
+<a href="https://mail.google.com"><i class="fa-solid fa-envelope"></i>vadthyashirisha74@gmail.com</a>
+<a href="https://github.com/Vadthyshirisha" target="_blank"><i class="fa-brands fa-github"></i>https://github.com/Vadthyshirisha</a>
+<a href="https://www.linkedin.com/in/vadthya-shirisha-592685270" target="_blank"><i class="fa-brands fa-linkedin"></i>https://www.linkedin.com/in/vadthya-shirisha-592685270</a>
+</div>
+</footer>
+</body>
+<script>
+    function myFunction() {
+      var x = document.getElementById("topnavi");
+      if (x.className === "navi") {
+        x.className += " responsive";
+      } else {
+        x.className = "navi";
+      }
+    }
+    
+    </script>
+</html>
